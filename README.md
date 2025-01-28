@@ -160,6 +160,9 @@ To request data, use the `data` root and include the variable / geometry type, a
 
 ## Run the mockup application
 ### Setup 
+
+Activate the usual `conda` environment for the data API.
+
 `pipenv install`
 
 Set `flask` application environment variables:
