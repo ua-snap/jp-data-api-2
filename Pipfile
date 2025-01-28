@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask_cors = "*"
+aiohttp = "*"
+pyproj = "*"
+numpy = "*"
+geopandas = "*"
+xarray = "*"
+netcdf4 = "*"
+h5netcdf = "*"
+rioxarray = "*"
+requests = "==2.29.0"
+rasterstats = "*"
+shapely = "*"
+geos = "*"
+rtree = "*"
+pygeos = "*"
+lxml = "*"
+marshmallow = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.8"
